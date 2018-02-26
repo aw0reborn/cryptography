@@ -1,4 +1,3 @@
-#cryptography
 Cryptography: 
 Cryptography is the science of using secret codes. A Cryptographer is someone who uses and
 studies secret codes.
