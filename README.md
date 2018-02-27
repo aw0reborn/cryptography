@@ -29,3 +29,8 @@ Caesar cipher, also known as Caesar's cipher, the shift cipher, Caesar's code or
 The encryption step performed by a Caesar cipher is often incorporated as part of more complex schemes, such as the Vigenère cipher, and still has modern application in the ROT13 system. As with all single-alphabet substitution ciphers, the Caesar cipher is easily broken and in modern practice offers essentially no communication security.
 [Read more about it](https://en.wikipedia.org/wiki/Caesar_cipher)
 ![Bank](https://github.com/naumanafsar/cryptography/blob/master/imgs/caesar-cipher.jpeg)
+
+### ROTATE or Shift
+
+ROTATE is also a simple cipher like caesar cipher, the only difference in this rotate cipher is that the user has a speacial key, that key indicated the number of shifts the user wants to encrypt the message. For example if a user use a key = 13, then it will behave exactly like ROT13 cipher, and if a user enters 3, then it will behave exactly like caesar's cipher.
+![Bank](https://github.com/naumanafsar/cryptography/blob/master/imgs/rotate.jpg)
