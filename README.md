@@ -1,10 +1,10 @@
-Cryptography: 
-Cryptography is the science of using secret codes. A Cryptographer is someone who uses and
+#Cryptography: 
+Cryptography is the science of using secret codes. A *Cryptographer* is someone who uses and
 studies secret codes.
-But the secret codes deosn't always remains secret, A Cryptanalyst is someone who can
-hack secret codes and read other people’s encrypted messages. Cryptanalysts are also called CODE BREAKERS or HACKERS.
+But the secret codes deosn't always remains secret, A *Cryptanalyst* is someone who can
+hack secret codes and read other people’s encrypted messages. Cryptanalysts are also called *CODE BREAKERS* or *HACKERS*.
 
-CODES vs CIPHERS:
+##CODES vs CIPHERS:
 The development of the electric telegraph in the early 19 th century allowed for near-instant communication through wires across continents. This was much faster than sending a horseback rider carrying a bag of letters. However, the telegraph couldn’t directly send written letters drawn on paper. Instead it could send electric pulses. A short pulse is called a “dot” and a long pulse is called a “dash”.
 In order to convert these dots and dashes to English letters of the alphabet, an encoding system (or code ) is needed to translate from English to electric pulse code (called
 encoding ) and at the other end translate electric pulses to English (called decoding ).
