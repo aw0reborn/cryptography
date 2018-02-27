@@ -28,14 +28,16 @@ void encode()  //Starts Encoding
     string msg;
     int key = 13;
     cout<<"Please Enter the plain text to Encrypt: ";
-    getline(cin,msg);
+    getline(cin,msg);     //Takes plain text and saves it into msg
 
     for(int i = 0; i < msg.size(); i++)
       {
-        if(msg[i] >= char(65) && msg[i] <= char(90) || msg[i] >= char(97) && msg[i] <= char(122))   //A-Z or a-z
-          cout << char(msg[i] + key);
+        if(msg[i] >= char(65) && msg[i] <= char(77) || msg[i] >= char(97) && msg[i] <= char(109))
+          cout<< char(msg[i] + key);
+        else if(msg[i] > char(77) && msg[i] <= char(90) || msg[i] > char(109) && msg[i] <= char(122))
+          cout<< char(msg[i] - key);
         else                                                //for special characters
-          cout <<msg[i];
+          cout<<msg[i];
       }
   return;
   }
@@ -45,12 +47,12 @@ void decode()  //Starts Decoding
     string msg;
     int key = 13;
       cout<<"Please Enter your Encrypted Message: ";
-    getline(cin, msg);
+      getline(cin, msg);
     for(int i = 0; i < msg.size(); i++)
       {
-        if(msg[i] > char(64) && msg[i] < char(93) || msg[i] > char(96) && msg[i] < char(123))
+        if(msg[i] >= char(65) && msg[i] <= char(77) || msg[i] >= char(97) && msg[i] <= char(109))
           cout << char(msg[i] - key);
-        else
-          cout<<msg[i];
+        else if(msg[i] > char(77) && msg[i] <= char(90) || msg[i] > char(109) && msg[i] <= char(122))
+          cout<<char(msg[i] - key);
       }
   }
