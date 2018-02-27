@@ -18,7 +18,7 @@ void choices() //Prompts Options to the user
     if(select == 2) decode();
   }
 
-int main()
+int main()  // My Main function
   {
     choices();
   }
