@@ -30,9 +30,9 @@ void encode()  //Starts Encoding
       getline(cin,msg);     //Takes plain text and saves it into msg
       for(int i = 0; i < msg.size(); i++)
         {
-          if(msg[i] >= char(65) && msg[i] <= char(77) || msg[i] >= char(97) && msg[i] <= char(109))
+          if(msg[i] >= char(65) && msg[i] <= char(87) || msg[i] >= char(97) && msg[i] <= char(119))
             cout<< char(msg[i] + key);
-          else if(msg[i] > char(77) && msg[i] <= char(90) || msg[i] > char(109) && msg[i] <= char(122))
+          else if(msg[i] > char(86) && msg[i] <= char(90) || msg[i] > char(119) && msg[i] <= char(122))
             cout<< char(msg[i] - key);
           else                                                //for special characters
             cout<<msg[i];
@@ -48,10 +48,10 @@ void encode()  //Starts Encoding
       getline(cin,msg);     //Takes plain text and saves it into msg
       for(int i = 0; i < msg.size(); i++)
         {
-          if(msg[i] >= char(65) && msg[i] <= char(77) || msg[i] >= char(97) && msg[i] <= char(109))
+          if(msg[i] >= char(65) && msg[i] <= char(87) || msg[i] >= char(97) && msg[i] <= char(119))
             cout<< char(msg[i] - key);
-          else if(msg[i] > char(77) && msg[i] <= char(90) || msg[i] > char(109) && msg[i] <= char(122))
-            cout<< char(msg[i] - key);
+          else if(msg[i] > char(86) && msg[i] <= char(90) || msg[i] > char(119) && msg[i] <= char(122))
+            cout<< char(msg[i] + key);
           else                                                //for special characters
             cout<<msg[i];
         }
