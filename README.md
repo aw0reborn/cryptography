@@ -17,4 +17,4 @@ up what a code’s symbols mean to decode an encoded message.
 
 ### ROT13 Cipher
 ROT13 ("rotate by 13 places", sometimes hyphenated ROT-13) is a simple letter substitution cipher that replaces a letter with the 13th letter after it, in the alphabet. ROT13 is a special case of the Caesar cipher, developed in ancient Rome.
-![alt text](https://www.dropbox.com/s/f9rxlhwimba46st/rot13.png?dl=0)
+![Bank](https://github.com/naumanafsar/cryptography/blob/master/imgs/rot13.png)
